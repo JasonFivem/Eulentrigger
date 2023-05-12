@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eulen trigger</title>
+</head>
+<body>
+    <h1>Eulen trigger</h1>
+
+    <h2>Admin anzug</h2>
+    <p> TriggerEvent('skinchanger:loadSkin', {
+        sex          = 0,
+        face         = 0,
+        skin         = 0,
+        hair_1       = 0,
+        hair_2       = 0,
+        hair_color_1 = 0,
+        hair_color_2 = 0,
+        decals_1     = 0,
+        decals_2     = 0,
+        tshirt_1     = 15,
+        tshirt_2     = 0,
+        torso_1      = 287,
+        torso_2      = 2,
+        arms         = 9,
+        pants_1      = 114,
+        pants_2      = 2,
+        shoes_1      = 78,
+        shoes_2      = 2,
+        mask_1       = 135,
+        mask_2       = 2,
+        bproof_1     = 0,
+        bproof_2     = 0,
+        bags_1         = 0,
+        bags_2         = 0,
+        beard_1      = 0,
+        beard_2      = 0,
+        beard_3      = 0,
+        beard_4      = 0,
+        chain_1      = 0,
+        chain_2      = 0,
+        glasses_1    = 0,
+        glasses_2    = 0,
+        })</p>
+
+    <h2>revive</h2>
+    <p>TriggerEvent('esx_ambulancejob:revive') oder TriggerServerEvent('esx_ambulancejob:revive', your id)</p>
+
+    <h2>Server message</h2>
+    <p>TriggerEvent('messagerundruf:show',"TITEL", NACHRICHT")
+        TriggerServerEvent('esx_policejob:message', -1, "ACAB")
+        TriggerServerEvent('enp-admin:announce',-1, "hi")
+        TriggerServerEvent('sp_police:message',  -1, "cops=gay")
+    </p>
+    <h2>Waffenlizenz</h2>
+    <p>TriggerServerEvent('esx_weashop:buyLicense', 0)</p>
+    <h2>car-Spawn</h2>
+    <p>TriggerEvent('esx:spawnVehicle', "vehiclename")</p>
+</body>
+</html>
